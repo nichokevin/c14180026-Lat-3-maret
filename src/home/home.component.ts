@@ -13,12 +13,13 @@ export class HomeComponent implements OnInit {
   isi = "";
   tanggal="";
 
+
   ngOnInit() {
     
   }
 
   OPENHAL() {
-    //this.router.navigate(["/home/" + this.textnama]);
+    this.router.navigate(["/hal3"]);
   }
 
 }

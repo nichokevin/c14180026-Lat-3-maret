@@ -15,7 +15,6 @@ const ROUTES: Routes = [
   { path: "login", component: LoginComponent },
   { path: "home", component: HomeComponent },
   { path: "hal3", component: Hal3Component },
-  { path: "display", component: AppComponent }
 ];
 @NgModule({
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(ROUTES)],

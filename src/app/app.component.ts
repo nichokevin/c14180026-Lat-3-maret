@@ -11,8 +11,6 @@ export class AppComponent {
   constructor(private router: Router, public globalvar : GlobalvarService) {
     
   }
-
-  textnama = "";
   name = "Angular " + VERSION.major;
 
   OPENHALLOGIN() {
